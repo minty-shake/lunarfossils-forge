@@ -19,17 +19,71 @@ loom {
 }
 
 repositories {
-    // Add repositories to retrieve artifacts from in here.
-    // You should only use this when depending on other mods because
-    // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-    // See https://docs.gradle.org/current/userguide/declaring_repositories.html
-    // for more information about repositories.
+    maven {
+        name = 'GeckoLib'
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex('software\\.bernie.*')
+            includeGroup('com.eliotlash.mclib')
+        }
+    }
+
+    maven {
+        name = 'MinecraftForge'
+        url = 'https://maven.minecraftforge.net/'
+        content {
+            includeGroup 'com.github.glitchfiend'
+        }
+    }
+
+    maven {
+        name = 'Ladysnake'
+        url = 'https://maven.ladysnake.org/releases'
+        content {
+            includeGroup 'dev.onyxstudios.cardinal-components-api'
+        }
+    }
+
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content {
+            includeGroup 'maven.modrinth'
+        }
+    }
+
+    maven {
+        name = 'CurseMaven'
+        url = 'https://cursemaven.com'
+        content {
+            includeGroup 'curse.maven'
+        }
+    }
 }
 
 dependencies {
     minecraft "net.minecraft:minecraft:$project.minecraft_version"
     mappings loom.officialMojangMappings()
     forge "net.minecraftforge:forge:$project.forge_version"
+
+
+    modImplementation "dev.architectury:architectury-forge:$project.architectury_api_version"
+
+    modImplementation "software.bernie.geckolib:geckolib-forge-$project.minecraft_version:$project.geckolib_version"
+    forgeRuntimeLibrary "com.eliotlash.mclib:mclib:20"
+
+    modImplementation "curse.maven:fossils-223908:$project.fossils_forge_file_id"
+
+    modRuntimeOnly "com.github.glitchfiend:TerraBlender-forge:$project.minecraft_version-$project.terrablender_version"
+    modImplementation "maven.modrinth:more-hitboxes:$project.morehitboxes_forge_version"
+
+    forgeRuntimeLibrary "io.github.llamalad7:mixinextras-common:0.4.1"
+    modRuntimeOnly "io.github.llamalad7:mixinextras-forge:0.4.1"
+
+    compileOnly "org.projectlombok:lombok:$rootProject.lombok_version"
+    annotationProcessor "org.projectlombok:lombok:$rootProject.lombok_version"
+    testCompileOnly "org.projectlombok:lombok:$rootProject.lombok_version"
+    testAnnotationProcessor "org.projectlombok:lombok:$rootProject.lombok_version"
 }
 
 processResources {

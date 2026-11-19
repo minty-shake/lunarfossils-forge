@@ -3,9 +3,18 @@
   "package": "net.teamlf.lunarfossils.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
-  "client": [
-  ],
   "mixins": [
+    "AnimationInfoLoaderMixin",
+    "EntityDataLoaderMixin",
+    "PrehistoricEntityInfoAccessor",
+    "PrehistoricEntityInfoMixin",
+    "PrehistoricMixin",
+    "PrehistoricSkeletonMixin",
+    "ServerAnimationInfoLoaderMixin"
+  ],
+  "client": [
+    "client.DinosaurEggRendererMixin",
+    "client.PrehistoricGeoModelMixin"
   ],
   "injectors": {
     "defaultRequire": 1

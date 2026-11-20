@@ -1,28 +1,29 @@
 package net.teamlf.lunarfossils.server.entity;
 
+import java.util.List;
+import java.util.Optional;
+
 import com.github.teamfossilsarcheology.fossil.entity.prehistoric.base.PrehistoricMobType;
 import com.github.teamfossilsarcheology.fossil.util.TimePeriod;
+
 import dev.architectury.registry.registries.DeferredRegister;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.teamlf.lunarfossils.LunarFossils;
-import net.teamlf.lunarfossils.server.entity.obj.ExampleEntity;
 import net.teamlf.lunarfossils.server.entity.obj.LunarEntity;
-
-import java.util.List;
-import java.util.Optional;
+import net.teamlf.lunarfossils.server.entity.obj.Maraapunisaurus;
 
 public final class LunarEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ENTITY_TYPE);
     public static final DeferredRegister<Item> ITEM_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ITEM);
 
-    public static final LunarEntity<ExampleEntity> EXAMPLE_ENTITY = LunarEntity
-            .<ExampleEntity>builder("example_entity", ExampleEntity::new)
+    public static final LunarEntity<Maraapunisaurus> EXAMPLE_ENTITY = LunarEntity
+            .<Maraapunisaurus>builder("maraapunisaurus", Maraapunisaurus::new)
             .size(0.8F, 0.9F)
             .scale(0.2F, 0.7F)
             .eggScale(0.5F)
-            .attributes(ExampleEntity::createAttributes)
+            .attributes(Maraapunisaurus::createAttributes)
             .spawnEgg(0x6b5a3e, 0xc9a66b)
             .mobType(PrehistoricMobType.DINOSAUR)
             .timePeriod(TimePeriod.MESOZOIC)

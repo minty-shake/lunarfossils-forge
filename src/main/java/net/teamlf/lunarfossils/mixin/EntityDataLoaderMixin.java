@@ -1,18 +1,20 @@
 package net.teamlf.lunarfossils.mixin;
 
-import com.github.teamfossilsarcheology.fossil.entity.data.EntityDataLoader;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import net.minecraft.resources.ResourceLocation;
-import net.teamlf.lunarfossils.LunarFossils;
-import net.teamlf.lunarfossils.server.entity.LunarEntities;
-import net.teamlf.lunarfossils.server.entity.obj.LunarEntity;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.github.teamfossilsarcheology.fossil.entity.data.EntityDataLoader;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
+import net.minecraft.resources.ResourceLocation;
+import net.teamlf.lunarfossils.LunarFossils;
+import net.teamlf.lunarfossils.server.entity.LunarEntities;
+import net.teamlf.lunarfossils.server.entity.obj.LunarEntity;
 
 @Mixin(EntityDataLoader.class)
 public abstract class EntityDataLoaderMixin {

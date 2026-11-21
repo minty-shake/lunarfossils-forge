@@ -22,7 +22,7 @@ public final class LunarEntities {
             .<Maraapunisaurus>builder("maraapunisaurus", Maraapunisaurus::new)
             .size(0.9F, 2.0F)
             .scale(0.2F, 4.2F)
-            .eggScale(0.5F)
+            .eggScale(3F)
             .attributes(Maraapunisaurus::createAttributes)
             .spawnEgg(0x6b5a3e, 0xc9a66b)
             .mobType(PrehistoricMobType.DINOSAUR)

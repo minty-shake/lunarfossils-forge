@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.teamlf.lunarfossils.client.LunarFossilsClient;
 import net.teamlf.lunarfossils.server.entity.LunarEntities;
+import net.teamlf.lunarfossils.sounds.LunarSounds;
 import org.slf4j.Logger;
 
 @Mod(LunarFossils.MOD_ID)
@@ -18,6 +19,8 @@ public final class LunarFossils {
 
     public LunarFossils() {
         EventBuses.registerModEventBus(MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
+
+        LunarSounds.init();
 
         LunarEntities.init();
 

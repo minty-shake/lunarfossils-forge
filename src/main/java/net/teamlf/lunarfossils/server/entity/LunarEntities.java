@@ -20,8 +20,8 @@ public final class LunarEntities {
 
     public static final LunarEntity<Maraapunisaurus> EXAMPLE_ENTITY = LunarEntity
             .<Maraapunisaurus>builder("maraapunisaurus", Maraapunisaurus::new)
-            .size(0.8F, 0.9F)
-            .scale(0.2F, 0.7F)
+            .size(0.9F, 2.0F)
+            .scale(0.2F, 4.2F)
             .eggScale(0.5F)
             .attributes(Maraapunisaurus::createAttributes)
             .spawnEgg(0x6b5a3e, 0xc9a66b)

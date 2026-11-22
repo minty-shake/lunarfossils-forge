@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lunarfossils:item/egg/egg_item_pantylus"
+  }
+}

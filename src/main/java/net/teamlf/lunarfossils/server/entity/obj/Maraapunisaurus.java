@@ -23,7 +23,7 @@ public class Maraapunisaurus extends Prehistoric {
 
     @Override
     public PrehistoricEntityInfo info() {
-        return LunarEntities.EXAMPLE_ENTITY.getInfo();
+        return LunarEntities.MARAAPUNISAURUS.getInfo();
     }
 
     @Override

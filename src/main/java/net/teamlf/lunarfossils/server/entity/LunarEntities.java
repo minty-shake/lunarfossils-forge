@@ -18,13 +18,13 @@ public final class LunarEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ENTITY_TYPE);
     public static final DeferredRegister<Item> ITEM_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ITEM);
 
-    public static final LunarEntity<Maraapunisaurus> EXAMPLE_ENTITY = LunarEntity
+    public static final LunarEntity<Maraapunisaurus> MARAAPUNISAURUS = LunarEntity
             .<Maraapunisaurus>builder("maraapunisaurus", Maraapunisaurus::new)
-            .size(0.9F, 2.0F)
+            .size(1.2F, 2.0F)
             .scale(0.2F, 4.2F)
             .eggScale(3F)
             .attributes(Maraapunisaurus::createAttributes)
-            .spawnEgg(0x6b5a3e, 0xc9a66b)
+            .spawnEgg(0xd6ad6b, 0x783d1f)
             .mobType(PrehistoricMobType.DINOSAUR)
             .timePeriod(TimePeriod.MESOZOIC)
             .actionDelay("attack", 0.25)

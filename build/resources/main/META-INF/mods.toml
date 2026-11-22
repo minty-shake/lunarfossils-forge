@@ -5,7 +5,7 @@ license = "Insert License Here"
 
 [[mods]]
 modId = "lunarfossils"
-version = "1.0.0"
+version = "1.0.0.beta"
 displayName = "Lunar Fossils"
 authors = "Me!"
 description = '''

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.teamlf.lunarfossils.LunarFossils;
 import net.teamlf.lunarfossils.server.entity.obj.LunarEntity;
 import net.teamlf.lunarfossils.server.entity.obj.Maraapunisaurus;
+import net.teamlf.lunarfossils.server.entity.obj.Pantylus;
 
 public final class LunarEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ENTITY_TYPE);
@@ -24,6 +25,18 @@ public final class LunarEntities {
             .scale(0.2F, 4.2F)
             .eggScale(3F)
             .attributes(Maraapunisaurus::createAttributes)
+            .spawnEgg(0xd6ad6b, 0x783d1f)
+            .mobType(PrehistoricMobType.DINOSAUR)
+            .timePeriod(TimePeriod.MESOZOIC)
+            .actionDelay("attack", 0.25)
+            .build();
+
+    public static final LunarEntity<Pantylus> PANTYLUS = LunarEntity
+            .<Pantylus>builder("pantylus", Pantylus::new)
+            .size(0.8F, 0.9F)
+            .scale(0.1F, 0.3F)
+            .eggScale(3F)
+            .attributes(Pantylus::createAttributes)
             .spawnEgg(0xd6ad6b, 0x783d1f)
             .mobType(PrehistoricMobType.DINOSAUR)
             .timePeriod(TimePeriod.MESOZOIC)

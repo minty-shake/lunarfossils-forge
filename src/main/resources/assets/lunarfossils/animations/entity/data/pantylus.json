@@ -1,0 +1,10 @@
+{
+  "animations": {
+    "animation.pantylus.walk": {
+      "blocks_per_second": 0.3
+    },
+    "animation.pantylus.run": {
+      "blocks_per_second": 2.0
+    }
+  }
+}

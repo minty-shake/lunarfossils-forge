@@ -28,6 +28,6 @@ public class Pantylus extends Prehistoric {
 
     @Override
     public Item getOrderItem() {
-        return Items.STICK;
+        return Items.BONE;
     }
 }

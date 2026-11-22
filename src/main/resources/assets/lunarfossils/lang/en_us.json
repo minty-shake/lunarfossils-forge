@@ -1,5 +1,9 @@
 {
     "entity.lunarfossils.maraapunisaurus": "Maraapunisaurus",
     "entity.fossil.maraapunisaurus": "Maraapunisaurus",
-    "item.fossil.bone_unique_maraapunisaurus": "Maraapunisaurus Hump Vertebrae"
+    "item.fossil.bone_unique_maraapunisaurus": "Maraapunisaurus Hump Vertebrae",
+
+    "entity.lunarfossils.pantylus": "Pantylus",
+    "entity.fossil.pantylus": "Pantylus",
+    "item.fossil.bone_unique_pantylus": "Pantylus Tail Stub"
 }

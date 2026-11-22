@@ -23,7 +23,7 @@ public final class LunarEntities {
             .<Maraapunisaurus>builder("maraapunisaurus", Maraapunisaurus::new)
             .size(1.2F, 2.0F)
             .scale(0.2F, 4.2F)
-            .eggScale(3F)
+            .eggScale(1.4F)
             .attributes(Maraapunisaurus::createAttributes)
             .spawnEgg(0xd6ad6b, 0x783d1f)
             .mobType(PrehistoricMobType.DINOSAUR)
@@ -37,9 +37,9 @@ public final class LunarEntities {
             .scale(0.1F, 0.3F)
             .eggScale(3F)
             .attributes(Pantylus::createAttributes)
-            .spawnEgg(0xd6ad6b, 0x783d1f)
+            .spawnEgg(0xd1a23d, 0xded82c)
             .mobType(PrehistoricMobType.DINOSAUR)
-            .timePeriod(TimePeriod.MESOZOIC)
+            .timePeriod(TimePeriod.PALEOZOIC)
             .actionDelay("attack", 0.25)
             .build();
 

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lunarfossils:item/bone/maraapunisaurus/bone_arm_maraapunisaurus"
+    "layer0": "lunarfossils:item/bone/arm_bone"
   }
 }

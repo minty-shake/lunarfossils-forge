@@ -1,10 +1,8 @@
 package net.teamlf.lunarfossils.server.entity.obj;
 
-import org.jetbrains.annotations.Nullable;
-
 import com.github.teamfossilsarcheology.fossil.entity.prehistoric.base.Prehistoric;
 import com.github.teamfossilsarcheology.fossil.entity.prehistoric.base.PrehistoricEntityInfo;
-
+import org.jetbrains.annotations.Nullable;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.damagesource.DamageSource;
@@ -39,16 +37,7 @@ public class Maraapunisaurus extends Prehistoric {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        int randomSound = (int)(Math.random() * 3);
-        if (randomSound == 1) {
         return LunarSounds.MARAA_CALL.get();
-        } else {
-            if (randomSound == 2) {
-                return LunarSounds.MARAA_RUMBLE.get();
-                } else {
-                    return LunarSounds.MARAA_ROAR.get();
-                    }
-        }
     }
 
     @Nullable

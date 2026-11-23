@@ -19,9 +19,13 @@ public class LunarSounds {
     public static final RegistryObject<SoundEvent> MARAA_HURT = registerSoundEvents("maraahurt");
     public static final RegistryObject<SoundEvent> MARAA_DEATH = registerSoundEvents("maraadeath");
 
-    public static final ForgeSoundType MARAA_SOUNDS = new ForgeSoundType(1f, 1f,
-            LunarSounds.MARAA_ROAR, LunarSounds.MARAA_CALL, LunarSounds.MARAA_RUMBLE,
-            LunarSounds.MARAA_HURT, LunarSounds.MARAA_DEATH);
+    public static final RegistryObject<SoundEvent> PANTY_CALL_1 = registerSoundEvents("pantycall1");
+    public static final RegistryObject<SoundEvent> PANTY_CALL_2 = registerSoundEvents("pantycall2");
+    public static final RegistryObject<SoundEvent> PANTY_SQUEAK_1 = registerSoundEvents("pantysqueak1");
+    public static final RegistryObject<SoundEvent> PANTY_SQUEAK_2 = registerSoundEvents("pantysqueak2");
+    public static final RegistryObject<SoundEvent> PANTY_SQUEAK_3 = registerSoundEvents("pantysqueak3");
+    public static final RegistryObject<SoundEvent> PANTY_HURT = registerSoundEvents("pantyhurt");
+    public static final RegistryObject<SoundEvent> PANTY_DEATH = registerSoundEvents("pantydeath");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(LunarFossils.MOD_ID, name)));

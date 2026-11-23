@@ -28,5 +28,48 @@
     "sounds": [
       "lunarfossils:maraadeath"
     ]
+  },
+
+  "pantysqueak1": {
+    "subtitles": "sounds.lunarfossils.pantysqueak1",
+    "sounds": [
+      "lunarfossils:pantysqueak1"
+    ]
+  },
+  "pantysqueak2": {
+    "subtitles": "sounds.lunarfossils.pantysqueak2",
+    "sounds": [
+      "lunarfossils:pantysqueak2"
+    ]
+  },
+  "pantysqueak3": {
+    "subtitles": "sounds.lunarfossils.pantysqueak3",
+    "sounds": [
+      "lunarfossils:pantysqueak3"
+    ]
+  },
+  "pantycall1": {
+    "subtitles": "sounds.lunarfossils.pantycall1",
+    "sounds": [
+      "lunarfossils:pantycall1"
+    ]
+  },
+  "pantycall2": {
+    "subtitles": "sounds.lunarfossils.pantycall2",
+    "sounds": [
+      "lunarfossils:pantycall2"
+    ]
+  },
+  "pantyhurt": {
+    "subtitles": "sounds.lunarfossils.pantyhurt",
+    "sounds": [
+      "lunarfossils:pantyhurt"
+    ]
+  },
+  "pantydeath": {
+    "subtitles": "sounds.lunarfossils.pantydeath",
+    "sounds": [
+      "lunarfossils:pantydeath"
+    ]
   }
 }

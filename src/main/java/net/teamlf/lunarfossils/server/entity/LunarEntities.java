@@ -35,7 +35,7 @@ public final class LunarEntities {
             .<Pantylus>builder("pantylus", Pantylus::new)
             .size(0.8F, 0.9F)
             .scale(0.1F, 0.3F)
-            .eggScale(0.5F)
+            .eggScale(0.2F)
             .attributes(Pantylus::createAttributes)
             .spawnEgg(0xd1a23d, 0xded82c)
             .mobType(PrehistoricMobType.DINOSAUR)

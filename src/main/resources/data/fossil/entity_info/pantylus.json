@@ -24,7 +24,7 @@
   "teenAgeDays": 2,
   "breaksBlocks": false,
   "canBeRidden": false,
-  "diet": "OMNIVORE",
+  "diet": "CARNIVORE",
   "maxHunger": 80,
   "maxPopulation": 15,
   "eggScale": 0.8,

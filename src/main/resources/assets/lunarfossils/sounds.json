@@ -1,0 +1,32 @@
+{
+    "maraacall": {
+    "subtitles": "sounds.lunarfossils.maraacall",
+    "sounds": [
+      "lunarfossils:maraacall"
+    ]
+  },
+  "maraaroar": {
+    "subtitles": "sounds.lunarfossils.maraaroar",
+    "sounds": [
+      "lunarfossils:maraaroar"
+    ]
+  },
+  "maraarumble": {
+    "subtitles": "sounds.lunarfossils.maraarumble",
+    "sounds": [
+      "lunarfossils:maraarumble"
+    ]
+  },
+  "maraahurt": {
+    "subtitles": "sounds.lunarfossils.maraahurt",
+    "sounds": [
+      "lunarfossils:maraahurt"
+    ]
+  },
+  "maraadeath": {
+    "subtitles": "sounds.lunarfossils.maraadeath",
+    "sounds": [
+      "lunarfossils:maraadeath"
+    ]
+  }
+}

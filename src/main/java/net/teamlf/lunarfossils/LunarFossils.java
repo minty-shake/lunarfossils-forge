@@ -5,11 +5,14 @@ import dev.architectury.platform.forge.EventBuses;
 import dev.architectury.utils.Env;
 import dev.architectury.utils.EnvExecutor;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.teamlf.lunarfossils.client.LunarFossilsClient;
 import net.teamlf.lunarfossils.server.entity.LunarEntities;
 import org.slf4j.Logger;
+import net.teamlf.lunarfossils.sound.LunarSounds;
+
 
 @Mod(LunarFossils.MOD_ID)
 public final class LunarFossils {
@@ -17,9 +20,13 @@ public final class LunarFossils {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public LunarFossils() {
-        EventBuses.registerModEventBus(MOD_ID, FMLJavaModLoadingContext.get().getModEventBus());
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        EventBuses.registerModEventBus(MOD_ID, modEventBus);
 
         LunarEntities.init();
+
+        LunarSounds.init(modEventBus);
 
         EnvExecutor.runInEnv(Env.CLIENT, () -> LunarFossilsClient::init);
     }

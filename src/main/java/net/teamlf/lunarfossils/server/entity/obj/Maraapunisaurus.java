@@ -39,7 +39,16 @@ public class Maraapunisaurus extends Prehistoric {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
+        int randomSound = (int)(Math.random() * 3);
+        if (randomSound == 1) {
         return LunarSounds.MARAA_CALL.get();
+        } else {
+            if (randomSound == 2) {
+                return LunarSounds.MARAA_RUMBLE.get();
+                } else {
+                    return LunarSounds.MARAA_ROAR.get();
+                    }
+        }
     }
 
     @Nullable

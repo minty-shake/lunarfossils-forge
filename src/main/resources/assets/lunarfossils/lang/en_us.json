@@ -2,6 +2,12 @@
     "entity.lunarfossils.maraapunisaurus": "Maraapunisaurus",
     "entity.fossil.maraapunisaurus": "Maraapunisaurus",
     "item.fossil.bone_unique_maraapunisaurus": "Maraapunisaurus Hump Vertebrae",
+    
+    "sounds.lunarfossils.maraaroar": "Maraapunisaurus roars",
+    "sounds.lunarfossils.maraarumble": "Maraapunisaurus rumbles",
+    "sounds.lunarfossils.maraacall": "Maraapunisaurus calls",
+    "sounds.lunarfossils.maraahurt": "Maraapunisaurus hurts",
+    "sounds.lunarfossils.maraadeath": "Maraapunisaurus dies",
 
     "entity.lunarfossils.pantylus": "Pantylus",
     "entity.fossil.pantylus": "Pantylus",

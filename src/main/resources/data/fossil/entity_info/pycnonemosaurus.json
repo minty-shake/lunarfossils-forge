@@ -1,0 +1,31 @@
+{
+  "ai": {
+    "activity": "DIURNAL",
+    "attacking": "BASIC",
+    "climbing": "NONE",
+    "moving": "WALK",
+    "response": "TERRITORIAL",
+    "taming": "GEM"
+  },
+  "attributes": {
+    "damageBase": 2.0,
+    "damageMax": 17.5,
+    "healthBase": 10.0,
+    "healthMax": 55.0,
+    "speedBase": 0.2,
+    "speedMax": 0.25,
+    "armorBase": 0.0,
+    "armorMax": 6.5,
+    "knockBackResistanceBase": 0.0,
+    "knockBackResistanceMax": 1.0
+  },
+  "adultAgeDays": 12,
+  "teenAgeDays": 6,
+  "breaksBlocks": true,
+  "canBeRidden": true,
+  "diet": "CARNIVORE",
+  "maxHunger": 150,
+  "maxPopulation": 5,
+  "scaleBase": 0.3,
+  "scaleMax": 1.9
+}

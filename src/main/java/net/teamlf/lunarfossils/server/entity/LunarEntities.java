@@ -46,9 +46,9 @@ public final class LunarEntities {
 
     public static final LunarEntity<Pycnonemosaurus> PYCNONEMOSAURUS = LunarEntity
             .<Pycnonemosaurus>builder("pycnonemosaurus", Pycnonemosaurus::new)
-            .size(0.8F, 0.9F)
-            .scale(0.1F, 0.3F)
-            .eggScale(0.2F)
+            .size(0.3F, 1.9F)
+            .scale(0.3F, 1.9F)
+            .eggScale(0.9F)
             .attributes(Pycnonemosaurus::createAttributes)
             .spawnEgg(0xd1a23d, 0xded82c)
             .mobType(PrehistoricMobType.DINOSAUR)

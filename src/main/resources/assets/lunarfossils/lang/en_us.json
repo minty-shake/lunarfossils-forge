@@ -23,5 +23,13 @@
 
     "entity.lunarfossils.bajadasaurus": "Bajadasaurus",
     "entity.fossil.bajadasaurus": "Bajadasaurus",
-    "item.fossil.bone_unique_bajadasaurus": "Bajadasaurus Spine"
+    "item.fossil.bone_unique_bajadasaurus": "Bajadasaurus Spine",
+
+    "entity.lunarfossils.gorgosaurus": "Gorgosaurus",
+    "entity.fossil.gorgosaurus": "Gorgosaurus",
+    "item.fossil.bone_unique_gorgosaurus": "Gorgosaurus Tooth",
+    
+    "entity.lunarfossils.eremotherium": "Eremotherium",
+    "entity.fossil.eremotherium": "Eremotherium",
+    "item.fossil.bone_unique_eremotherium": "Eremotherium Claw"
 }

@@ -1,0 +1,10 @@
+{
+  "animations": {
+    "animation.gorgosaurus.walk": {
+      "blocks_per_second": 0.5
+    },
+    "animation.gorgosaurus.run": {
+      "blocks_per_second": 3.0
+    }
+  }
+}

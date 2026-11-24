@@ -11,12 +11,14 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.teamlf.lunarfossils.LunarFossils;
+import net.teamlf.lunarfossils.server.entity.obj.Bajadasaurus;
+import net.teamlf.lunarfossils.server.entity.obj.Eremotherium;
+import net.teamlf.lunarfossils.server.entity.obj.Gorgosaurus;
 import net.teamlf.lunarfossils.server.entity.obj.LunarEntity;
 import net.teamlf.lunarfossils.server.entity.obj.Maraapunisaurus;
 import net.teamlf.lunarfossils.server.entity.obj.Pantylus;
 import net.teamlf.lunarfossils.server.entity.obj.Pycnonemosaurus;
 import net.teamlf.lunarfossils.server.entity.obj.Vasuki;
-import net.teamlf.lunarfossils.server.entity.obj.Bajadasaurus;
 
 public final class LunarEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ENTITY_TYPE);
@@ -61,7 +63,7 @@ public final class LunarEntities {
     public static final LunarEntity<Vasuki> VASUKI = LunarEntity
             .<Vasuki>builder("vasuki", Vasuki::new)
             .size(2.0F, 0.3F)
-            .scale(0.25F, 1.3F)
+            .scale(0.25F, 1.15F)
             .eggScale(0.9F)
             .attributes(Vasuki::createAttributes)
             .spawnEgg(0x661f35, 0x170803)
@@ -73,12 +75,36 @@ public final class LunarEntities {
     public static final LunarEntity<Bajadasaurus> BAJADASAURUS = LunarEntity
             .<Bajadasaurus>builder("bajadasaurus", Bajadasaurus::new)
             .size(2.0F, 0.3F)
-            .scale(0.25F, 1.3F)
+            .scale(0.2F, 1.15F)
             .eggScale(0.9F)
             .attributes(Bajadasaurus::createAttributes)
             .spawnEgg(0x661f35, 0x170803)
             .mobType(PrehistoricMobType.DINOSAUR)
             .timePeriod(TimePeriod.MESOZOIC)
+            .actionDelay("attack", 0.25)
+            .build();
+
+    public static final LunarEntity<Gorgosaurus> GORGOSAURUS = LunarEntity
+            .<Gorgosaurus>builder("gorgosaurus", Gorgosaurus::new)
+            .size(2.6F, 1.0F)
+            .scale(0.3F, 1.6F)
+            .eggScale(0.9F)
+            .attributes(Gorgosaurus::createAttributes)
+            .spawnEgg(0x2e1305, 0xb84309)
+            .mobType(PrehistoricMobType.DINOSAUR)
+            .timePeriod(TimePeriod.MESOZOIC)
+            .actionDelay("attack", 0.25)
+            .build();
+
+    public static final LunarEntity<Eremotherium> EREMOTHERIUM = LunarEntity
+            .<Eremotherium>builder("eremotherium", Eremotherium::new)
+            .size(2.0F, 0.3F)
+            .scale(0.2F, 1.3F)
+            .eggScale(0.9F)
+            .attributes(Eremotherium::createAttributes)
+            .spawnEgg(0x661f35, 0x170803)
+            .mobType(PrehistoricMobType.MAMMAL)
+            .timePeriod(TimePeriod.CENOZOIC)
             .actionDelay("attack", 0.25)
             .build();
 

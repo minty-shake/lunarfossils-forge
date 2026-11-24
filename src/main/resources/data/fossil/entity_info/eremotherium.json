@@ -1,0 +1,31 @@
+{
+  "ai": {
+    "activity": "DIURNAL",
+    "attacking": "BASIC",
+    "climbing": "NONE",
+    "moving": "WALK",
+    "response": "TERRITORIAL",
+    "taming": "IMPRINTING"
+  },
+  "attributes": {
+    "damageBase": 3.0,
+    "damageMax": 18.0,
+    "healthBase": 15.0,
+    "healthMax": 75.0,
+    "speedBase": 0.15,
+    "speedMax": 0.2,
+    "armorBase": 0.0,
+    "armorMax": 2.0,
+    "knockBackResistanceBase": 0.0,
+    "knockBackResistanceMax": 1.0
+  },
+  "adultAgeDays": 16,
+  "teenAgeDays": 7,
+  "breaksBlocks": true,
+  "canBeRidden": true,
+  "diet": "HERBIVORE",
+  "maxHunger": 150,
+  "maxPopulation": 3,
+  "scaleBase": 0.3,
+  "scaleMax": 1.3
+}

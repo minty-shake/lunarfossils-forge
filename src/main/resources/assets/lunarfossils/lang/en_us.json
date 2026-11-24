@@ -19,5 +19,9 @@
 
     "entity.lunarfossils.vasuki": "Vasuki",
     "entity.fossil.vasuki": "Vasuki",
-    "item.fossil.bone_unique_vasuki": "Vasuki Fang"
+    "item.fossil.bone_unique_vasuki": "Vasuki Fang",
+
+    "entity.lunarfossils.bajadasaurus": "Bajadasaurus",
+    "entity.fossil.bajadasaurus": "Bajadasaurus",
+    "item.fossil.bone_unique_bajadasaurus": "Bajadasaurus Spine"
 }

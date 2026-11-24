@@ -16,6 +16,7 @@ import net.teamlf.lunarfossils.server.entity.obj.Maraapunisaurus;
 import net.teamlf.lunarfossils.server.entity.obj.Pantylus;
 import net.teamlf.lunarfossils.server.entity.obj.Pycnonemosaurus;
 import net.teamlf.lunarfossils.server.entity.obj.Vasuki;
+import net.teamlf.lunarfossils.server.entity.obj.Bajadasaurus;
 
 public final class LunarEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ENTITY_TYPE);
@@ -66,6 +67,18 @@ public final class LunarEntities {
             .spawnEgg(0x661f35, 0x170803)
             .mobType(PrehistoricMobType.DINOSAUR)
             .timePeriod(TimePeriod.CENOZOIC)
+            .actionDelay("attack", 0.25)
+            .build();
+
+    public static final LunarEntity<Bajadasaurus> BAJADASAURUS = LunarEntity
+            .<Bajadasaurus>builder("bajadasaurus", Bajadasaurus::new)
+            .size(2.0F, 0.3F)
+            .scale(0.25F, 1.3F)
+            .eggScale(0.9F)
+            .attributes(Bajadasaurus::createAttributes)
+            .spawnEgg(0x661f35, 0x170803)
+            .mobType(PrehistoricMobType.DINOSAUR)
+            .timePeriod(TimePeriod.MESOZOIC)
             .actionDelay("attack", 0.25)
             .build();
 

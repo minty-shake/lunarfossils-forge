@@ -71,5 +71,43 @@
     "sounds": [
       "lunarfossils:pantydeath"
     ]
+  },
+
+  "pycnobass": {
+    "subtitles": "sounds.lunarfossils.pycnobass",
+    "sounds": [
+      "lunarfossils:pycnobass"
+    ]
+  },
+  "pycnohurt": {
+    "subtitles": "sounds.lunarfossils.pycnohurt",
+    "sounds": [
+      "lunarfossils:pycnohurt"
+    ]
+  },
+  "pycnodeath": {
+    "subtitles": "sounds.lunarfossils.pycnodeath",
+    "sounds": [
+      "lunarfossils:pycnodeath"
+    ]
+  },
+
+  "vasukihiss": {
+    "subtitles": "sounds.lunarfossils.vasukihiss",
+    "sounds": [
+      "lunarfossils:vasukihiss"
+    ]
+  },
+  "vasukihurt": {
+    "subtitles": "sounds.lunarfossils.vasukihurt",
+    "sounds": [
+      "lunarfossils:vasukihurt"
+    ]
+  },
+  "vasukideath": {
+    "subtitles": "sounds.lunarfossils.vasukideath",
+    "sounds": [
+      "lunarfossils:vasukideath"
+    ]
   }
 }

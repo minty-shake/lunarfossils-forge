@@ -15,6 +15,7 @@ import net.teamlf.lunarfossils.server.entity.obj.LunarEntity;
 import net.teamlf.lunarfossils.server.entity.obj.Maraapunisaurus;
 import net.teamlf.lunarfossils.server.entity.obj.Pantylus;
 import net.teamlf.lunarfossils.server.entity.obj.Pycnonemosaurus;
+import net.teamlf.lunarfossils.server.entity.obj.Vasuki;
 
 public final class LunarEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPE_REGISTER = DeferredRegister.create(LunarFossils.MOD_ID, Registries.ENTITY_TYPE);
@@ -46,13 +47,25 @@ public final class LunarEntities {
 
     public static final LunarEntity<Pycnonemosaurus> PYCNONEMOSAURUS = LunarEntity
             .<Pycnonemosaurus>builder("pycnonemosaurus", Pycnonemosaurus::new)
-            .size(0.3F, 1.9F)
+            .size(2.6F, 1.0F)
             .scale(0.3F, 1.9F)
             .eggScale(0.9F)
             .attributes(Pycnonemosaurus::createAttributes)
             .spawnEgg(0xd1a23d, 0xded82c)
             .mobType(PrehistoricMobType.DINOSAUR)
             .timePeriod(TimePeriod.MESOZOIC)
+            .actionDelay("attack", 0.25)
+            .build();
+
+    public static final LunarEntity<Vasuki> VASUKI = LunarEntity
+            .<Vasuki>builder("vasuki", Vasuki::new)
+            .size(2.0F, 0.3F)
+            .scale(0.25F, 1.3F)
+            .eggScale(0.9F)
+            .attributes(Vasuki::createAttributes)
+            .spawnEgg(0xd1a23d, 0xded82c)
+            .mobType(PrehistoricMobType.DINOSAUR)
+            .timePeriod(TimePeriod.CENOZOIC)
             .actionDelay("attack", 0.25)
             .build();
 

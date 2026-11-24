@@ -1,0 +1,10 @@
+{
+  "animations": {
+    "animation.vasuki.walk": {
+      "blocks_per_second": 2.0
+    },
+    "animation.vasuki.run": {
+      "blocks_per_second": 4.0
+    }
+  }
+}

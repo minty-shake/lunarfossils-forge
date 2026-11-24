@@ -11,5 +11,13 @@
 
     "entity.lunarfossils.pantylus": "Pantylus",
     "entity.fossil.pantylus": "Pantylus",
-    "item.fossil.bone_unique_pantylus": "Pantylus Tail Stub"
+    "item.fossil.bone_unique_pantylus": "Pantylus Tail Stub",
+
+    "entity.lunarfossils.pycnonemosaurus": "Pycnonemosaurus",
+    "entity.fossil.pycnonemosaurus": "Pycnonemosaurus",
+    "item.fossil.bone_unique_pycnonemosaurus": "Pycnonemosaurus Finger",
+
+    "entity.lunarfossils.vasuki": "Vasuki",
+    "entity.fossil.vasuki": "Vasuki",
+    "item.fossil.bone_unique_vasuki": "Vasuki Fang"
 }

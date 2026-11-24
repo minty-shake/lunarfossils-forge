@@ -39,18 +39,18 @@ public class Vasuki extends Prehistoric {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return LunarSounds.MARAA_CALL.get();
+        return LunarSounds.VASUKI_HISS_1.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getHurtSound(DamageSource damageSource) {
-        return LunarSounds.MARAA_HURT.get();
+        return LunarSounds.VASUKI_HURT.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return LunarSounds.MARAA_DEATH.get();
+        return LunarSounds.VASUKI_DEATH.get();
     }
 }

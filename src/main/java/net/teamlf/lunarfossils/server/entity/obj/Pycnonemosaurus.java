@@ -39,18 +39,18 @@ public class Pycnonemosaurus extends Prehistoric {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return LunarSounds.MARAA_CALL.get();
+        return LunarSounds.PYCNO_BASS.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getHurtSound(DamageSource damageSource) {
-        return LunarSounds.MARAA_HURT.get();
+        return LunarSounds.PYCNO_HURT.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return LunarSounds.MARAA_DEATH.get();
+        return LunarSounds.PYCNO_DEATH.get();
     }
 }

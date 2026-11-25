@@ -1,0 +1,73 @@
+{
+	"elements": [
+		{
+			"name": "tail_d",
+			"pos": [0.5, 3.96611, -65.21752],
+			"width": 7,
+			"height": 7,
+			"ref": "tail_hitbox_4"
+		},
+		{
+			"name": "tail_c",
+			"pos": [0, 5.17694, -49.81284],
+			"width": 8,
+			"height": 8,
+			"ref": "tail_hitbox_3"
+		},
+		{
+			"name": "tail_b",
+			"pos": [0, 3.85492, -34.67553],
+			"width": 10,
+			"height": 11,
+			"ref": "tail_hitbox_2"
+		},
+		{
+			"name": "tail_a",
+			"pos": [0, 10.11827, -20.41096],
+			"width": 12,
+			"height": 13,
+			"ref": "tail_hitbox_1"
+		},
+		{
+			"name": "body_a",
+			"pos": [0, 8.926, -6.10818],
+			"width": 16,
+			"height": 17,
+			"ref": "body_hitbox_1"
+		},
+		{
+			"name": "body_b",
+			"pos": [0.5, 9.84137, 6.47403],
+			"width": 15,
+			"height": 18,
+			"ref": "body_hitbox_2"
+		},
+		{
+			"name": "neck_a",
+			"pos": [0, 18.06934, 17.23527],
+			"width": 10,
+			"height": 10,
+			"ref": "neck_hitbox_1"
+		},
+		{
+			"name": "neck_b",
+			"pos": [0, 22.58445, 26.09538],
+			"width": 10,
+			"height": 9,
+			"ref": "neck_hitbox_2"
+		},
+		{
+			"name": "neck_c",
+			"pos": [0, 27.1322, 35.08651],
+			"width": 8,
+			"height": 8,
+			"ref": "neck_hitbox_3"
+		},
+		{
+			"name": "rider_pos",
+			"pos": [0, 26.76041, 9.35151],
+			"ref": "rider_pos",
+			"is_anchor": true
+		}
+	]
+}

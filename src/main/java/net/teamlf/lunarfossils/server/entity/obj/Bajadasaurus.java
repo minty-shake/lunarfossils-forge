@@ -1,8 +1,10 @@
 package net.teamlf.lunarfossils.server.entity.obj;
 
+import org.jetbrains.annotations.Nullable;
+
 import com.github.teamfossilsarcheology.fossil.entity.prehistoric.base.Prehistoric;
 import com.github.teamfossilsarcheology.fossil.entity.prehistoric.base.PrehistoricEntityInfo;
-import org.jetbrains.annotations.Nullable;
+
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.damagesource.DamageSource;
@@ -37,18 +39,18 @@ public class Bajadasaurus extends Prehistoric {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return LunarSounds.MARAA_CALL.get();
+        return LunarSounds.BAJA_CALL_1.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getHurtSound(DamageSource damageSource) {
-        return LunarSounds.MARAA_HURT.get();
+        return LunarSounds.BAJA_HURT.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return LunarSounds.MARAA_DEATH.get();
+        return LunarSounds.BAJA_DEATH.get();
     }
 }

@@ -29,6 +29,10 @@ public class LunarSounds {
     public static final RegistryObject<SoundEvent> VASUKI_HURT = registerSoundEvents("vasukihurt");
     public static final RegistryObject<SoundEvent> VASUKI_DEATH = registerSoundEvents("vasukideath");
 
+    public static final RegistryObject<SoundEvent> BAJA_CALL_1 = registerSoundEvents("bajacall");
+    public static final RegistryObject<SoundEvent> BAJA_HURT = registerSoundEvents("bajahurt");
+    public static final RegistryObject<SoundEvent> BAJA_DEATH = registerSoundEvents("bajadeath");
+
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(LunarFossils.MOD_ID, name)));
     }

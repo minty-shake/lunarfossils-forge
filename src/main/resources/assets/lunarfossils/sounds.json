@@ -109,5 +109,24 @@
     "sounds": [
       "lunarfossils:vasukideath"
     ]
+  },
+
+  "bajacall": {
+    "subtitles": "sounds.lunarfossils.bajacall",
+    "sounds": [
+      "lunarfossils:bajacall"
+    ]
+  },
+  "bajahurt": {
+    "subtitles": "sounds.lunarfossils.bajahurt",
+    "sounds": [
+      "lunarfossils:bajahurt"
+    ]
+  },
+  "bajadeath": {
+    "subtitles": "sounds.lunarfossils.bajadeath",
+    "sounds": [
+      "lunarfossils:bajadeath"
+    ]
   }
 }

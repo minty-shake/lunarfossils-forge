@@ -1,4 +1,11 @@
 {
+    "item.fossil.toy_scratching_post_bamboo": "Bamboo Scratching Post",
+    "item.fossil.toy_scratching_post_mangrove": "Mangrove Scratching Post",
+    "item.fossil.toy_scratching_post_cherry": "Cherry Scratching Post",
+    "item.fossil.toy_tethered_log_bamboo": "Bamboo Tethered Log",
+    "item.fossil.toy_tethered_log_mangrove": "Mangrove Tethered Log",
+    "item.fossil.toy_tethered_log_cherry": "Cherry Tethered Log",
+
     "entity.lunarfossils.maraapunisaurus": "Maraapunisaurus",
     "entity.fossil.maraapunisaurus": "Maraapunisaurus",
     "item.fossil.bone_unique_maraapunisaurus": "Maraapunisaurus Hump Vertebrae",

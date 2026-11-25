@@ -3,9 +3,9 @@
     "activity": "BOTH",
     "attacking": "BASIC",
     "climbing": "NONE",
-    "moving": "WALK",
+    "moving": "SEMI_AQUATIC",
     "response": "TERRITORIAL",
-    "taming": "GEM"
+    "taming": "AQUATIC_GEM"
   },
   "attributes": {
     "damageBase": 2.0,
@@ -22,7 +22,7 @@
   "adultAgeDays": 10,
   "teenAgeDays": 5,
   "breaksBlocks": false,
-  "canBeRidden": false,
+  "canBeRidden": true,
   "diet": "CARNIVORE_EGG",
   "maxHunger": 125,
   "maxPopulation": 5,
